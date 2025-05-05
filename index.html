@@ -186,21 +186,77 @@
         <img src="imagenes/thanos.jpg" alt="Thanos">
         <h3>Thanos</h3>
         <div class="logros">Bacardí Champion</div>
+          <span id="diasThanos"></span> días</p>
+
+<script>
+  function calcularDias(desde, idElemento) {
+    const fechaInicio = new Date(desde);
+    const hoy = new Date();
+    const diferenciaTiempo = hoy - fechaInicio;
+    const dias = Math.floor(diferenciaTiempo / (1000 * 60 * 60 * 24));
+    document.getElementById(idElemento).textContent = dias;
+  }
+
+  calcularDias("2025-05-03", "diasThanos");
+</script>
+
+          
       </div>
       <div class="card">
         <img src="imagenes/ye.jpg" alt="Ye">
         <h3>Ye</h3>
         <div class="logros">🏆 Movimiento Ciudadano Champion</div>
+                <span id="diasYe"></span> días</p>
+
+<script>
+  function calcularDias(desde, idElemento) {
+    const fechaInicio = new Date(desde);
+    const hoy = new Date();
+    const diferenciaTiempo = hoy - fechaInicio;
+    const dias = Math.floor(diferenciaTiempo / (1000 * 60 * 60 * 24));
+    document.getElementById(idElemento).textContent = dias;
+  }
+
+  calcularDias("2025-03-29", "diasYe");
+</script>
+          
       </div>
       <div class="card">
         <img src="imagenes/pena_pri.jpg" alt="Peña Nieto y PRI">
         <h3>Peña Nieto & PRI</h3>
         <div class="logros">🏆 Atlas Tag Team Champions</div>
+          <span id="diasPena_Nieto_PRI"></span> días</p>
+
+<script>
+  function calcularDias(desde, idElemento) {
+    const fechaInicio = new Date(desde);
+    const hoy = new Date();
+    const diferenciaTiempo = hoy - fechaInicio;
+    const dias = Math.floor(diferenciaTiempo / (1000 * 60 * 60 * 24));
+    document.getElementById(idElemento).textContent = dias;
+  }
+
+  calcularDias("2025-02-10", "diasPena_Nieto_PRI");
+</script>
+          
       </div>
       <div class="card">
         <img src="imagenes/harley_quinn.jpg" alt="Harley Quinn">
         <h3>Harley Quinn</h3>
         <div class="logros">🏆 Onlyfans Champion</div>
+          <span id="diasHarley_Quinn"></span> días</p>
+
+<script>
+  function calcularDias(desde, idElemento) {
+    const fechaInicio = new Date(desde);
+    const hoy = new Date();
+    const diferenciaTiempo = hoy - fechaInicio;
+    const dias = Math.floor(diferenciaTiempo / (1000 * 60 * 60 * 24));
+    document.getElementById(idElemento).textContent = dias;
+  }
+
+  calcularDias("2025-05-03", "diasHarley_Quinn");
+</script>
       </div>
     </div>
   </section>
